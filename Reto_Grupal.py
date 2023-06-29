@@ -46,9 +46,9 @@ while menuPrincipal != 0:
         porcentajeMayor = (int(mayor) * 100) / int(personas)
 
         print("A continuación se observa las estadísticas de las personas: \n")
-        print("Cantidad de personas menores a 18 años: ", menor, " ", str(porcentajeMenor)+"%")
-        print("Cantidad de personas entre 18 años a 65 años: ", adulto, " ", str(porcentajeAdulto)+"%")
-        print("Cantidad de personas mayor a 65 años: ", mayor, " ", str(porcentajeMayor)+"%")
+        print("Cantidad de personas menores a 18 años: ", menor, "-", str(porcentajeMenor)+"%")
+        print("Cantidad de personas entre 18 años a 65 años: ", adulto, "-", str(porcentajeAdulto)+"%")
+        print("Cantidad de personas mayor a 65 años: ", mayor, "-", str(porcentajeMayor)+"%")
         break
     else:
         print("Digita una opción correcta.")
