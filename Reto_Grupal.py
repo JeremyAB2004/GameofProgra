@@ -18,3 +18,9 @@ while ingreseOtra == "si" or ingreseOtra == "s":
   else:
     mayor += 1
     ingreseOtra = input("Desea agregar otra edad (si o no):\n")
+
+#Estadísticas
+print("A continuación se observa las estadísticas de las personas: \n\n")
+print("Cantidad de personas menores a 18 años: ", menor)
+print("Cantidad de personas entre 18 años a 65 años: ", adulto)
+print("Cantidad de personas mayor a 65 años: ", mayor)
