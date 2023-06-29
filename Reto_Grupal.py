@@ -28,7 +28,11 @@ while menuPrincipal !=0:
             mayor += 1
             ingreseOtra = input("Desea agregar otra edad (si o no):\n")
     elif menuPrincipal == 2:
-        #aqui va el codigo de la estadistica
+        #Estadísticas
+        print("A continuación se observa las estadísticas de las personas: \n\n")
+        print("Cantidad de personas menores a 18 años: ", menor)
+        print("Cantidad de personas entre 18 años a 65 años: ", adulto)
+        print("Cantidad de personas mayor a 65 años: ", mayor)
     else: 
         print ("Digita una opcion correcta.")
     menuPrincipal = int(input("Menu Principal: \n 1-Ingresar una edad. \n 2-Ver la estadistica. \n 0-Salir.\n"))
